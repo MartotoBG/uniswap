@@ -2,22 +2,23 @@
 <html lang="bg-BG">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>uniswap</title>
         <style>
+            
                 body {
                 background-color: rgb(40, 33, 53);
             }
             .container {
-                background-color: rgb(27, 22, 22);
-                width: 400px; height: 300px; 
+                background-color: rgb(22, 22, 22);
+                width: 480px; height: 242px; 
                 margin: 100px;
                 position: relative;
-                top: 100px;
-                left: 650px;
-                border-radius: 10px;
+                bottom:100px;
+                left: 600px;
+                border-radius: 50px;
                 align-items: center;
-                
-             
+                justify-content: center;
             }
             div {
                 font-size: 30px;
@@ -28,8 +29,6 @@
                
             }
             .rounded-button {
-                width:60px;
-                height: 60px;
                 background: none;
                 color: white;
                 display: inline-flex;
@@ -41,21 +40,54 @@
                 text-decoration: none;
                 font-size: 30px;
                 position: relative;
-                bottom: 320px;
-                left: 1110px;
+                top: 2px;
+                left: 340px;
             
             }
-           .swap{
-
+            .shiro{
+                height: 100px; width: 99.5%;
+               
+                position:relative;
+                right: 10px;
+                bottom: 10px;
+                
+                
             }
+         .buton {
+        border-radius: 50px;
+        height: 50px;
+        width: 100px;
+        background-color: #191b1f;
+       
+       
+      
+        color:white;
+        
+         }
+        .spann {
+            position:relative;
+            left: 10px;
+            
+        }
+          
         </style>
     </head>
     <body>
-        <div class="container"> 
-            <span class=".text">Swap</span>
-            <button class="rounded-button" type="button"><ion-icon name="settings-outline"></ion-icon></button>
+      <div class="shiro">
+        
+        <div style="background-color:aqua;"> 
+         <button class="buton">Swap</button>
+         <button class="buton">Pool</button>
+         <button class="buton">Vote</button>
+         <button class="buton">Charts<span>&#8599;</span></button>
         </div>
         
+    </div>
+        <div class="container"> 
+            <span class="spann">Swap</span>
+            <button class="rounded-button" type="button"><ion-icon name="settings-outline"></ion-icon></button>
+        </div>
+    
     </body>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
